@@ -1,0 +1,10 @@
+graphify-out/
+.codex/
+artifacts-homepage.png
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+.env
+.env.*
