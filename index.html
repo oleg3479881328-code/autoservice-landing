@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIS Motors LLC | Автосервис в Milford, Ohio</title>
+    <title data-i18n="meta.title">SIS Motors LLC | Автосервис в Milford, Ohio</title>
     <meta
       name="description"
       content="SIS Motors LLC — автосервис Сергея в Milford, Ohio. Диагностика, техническое обслуживание, ремонт ходовой, электрики, тормозной системы, двигателей и трансмиссий."
+      data-i18n-attr="content:meta.description"
     />
-    <meta property="og:title" content="SIS Motors LLC | Автосервис в Milford, Ohio" />
+    <meta property="og:title" content="SIS Motors LLC | Автосервис в Milford, Ohio" data-i18n-attr="content:meta.title" />
     <meta
       property="og:description"
       content="Полный комплекс услуг по ремонту автомобилей: диагностика, обслуживание, электрика, ходовая, двигатели и трансмиссии."
+      data-i18n-attr="content:meta.ogDescription"
     />
     <meta property="og:type" content="website" />
     <meta
@@ -27,6 +29,8 @@
       rel="canonical"
       href="https://oleg3479881328-code.github.io/autoservice-landing/"
     />
+    <link rel="alternate" hreflang="ru" href="https://oleg3479881328-code.github.io/autoservice-landing/?lang=ru" />
+    <link rel="alternate" hreflang="en" href="https://oleg3479881328-code.github.io/autoservice-landing/?lang=en" />
     <link
       rel="preload"
       as="image"
@@ -55,23 +59,20 @@
           "postalCode": "45150",
           "addressCountry": "US"
         },
-        "areaServed": [
-          "Milford, OH",
-          "Cincinnati, OH"
-        ],
+        "areaServed": ["Milford, OH", "Cincinnati, OH"],
         "url": "https://oleg3479881328-code.github.io/autoservice-landing/",
         "image": "https://oleg3479881328-code.github.io/autoservice-landing/assets/sis-motors-web/head.jpg",
         "serviceType": [
-          "Диагностика двигателя",
-          "Техническое обслуживание",
-          "Ремонт ходовой части",
-          "Ремонт автомобильной электрики",
-          "Замена масла",
-          "Замена тормозной системы",
-          "Замена двигателя",
-          "Замена трансмиссии",
-          "Помощь в пути",
-          "Проверка автомобиля перед покупкой"
+          "Engine diagnostics",
+          "Vehicle maintenance",
+          "Suspension repair",
+          "Automotive electrical repair",
+          "Oil change",
+          "Brake service",
+          "Engine replacement",
+          "Transmission replacement",
+          "Roadside assistance",
+          "Pre-purchase vehicle inspection"
         ]
       }
     </script>
@@ -93,19 +94,25 @@
             <span></span>
             <span></span>
             <span></span>
-            <span class="sr-only">Открыть меню</span>
+            <span class="sr-only" data-i18n="nav.openMenu">Открыть меню</span>
           </button>
 
-          <nav class="site-nav" id="site-nav" aria-label="Главная навигация">
-            <a href="#services">Услуги</a>
-            <a href="#about">О сервисе</a>
-            <a href="#gallery">Работы</a>
-            <a href="#contact">Контакты</a>
+          <nav class="site-nav" id="site-nav" aria-label="Главная навигация" data-i18n-attr="aria-label:nav.ariaLabel">
+            <a href="#services" data-i18n="nav.services">Услуги</a>
+            <a href="#about" data-i18n="nav.about">О сервисе</a>
+            <a href="#gallery" data-i18n="nav.gallery">Работы</a>
+            <a href="#contact" data-i18n="nav.contact">Контакты</a>
           </nav>
 
-          <a class="button button-primary desktop-cta" href="tel:+19378293780">
-            Позвонить Сергею
-          </a>
+          <div class="header-actions">
+            <div class="language-switch" aria-label="Language switcher">
+              <button type="button" class="language-button is-active" data-lang="ru">RU</button>
+              <button type="button" class="language-button" data-lang="en">EN</button>
+            </div>
+            <a class="button button-primary desktop-cta" href="tel:+19378293780" data-i18n="nav.call">
+              Позвонить Сергею
+            </a>
+          </div>
         </div>
       </header>
 
@@ -114,30 +121,24 @@
           <div class="container hero-grid">
             <div class="hero-copy">
               <p class="hero-kicker">SIS Motors LLC • Milford, Ohio</p>
-              <h1>Полный комплекс услуг по ремонту автомобилей</h1>
-              <p class="hero-text">
-                Сергей, мастерская SIS Motors LLC. Более 15 лет опыта в ремонте
-                и обслуживании автомобилей: от диагностики и технического
-                обслуживания до сложных работ по двигателю, трансмиссии и
-                ходовой части.
+              <h1 data-i18n="hero.title">Полный комплекс услуг по ремонту автомобилей</h1>
+              <p class="hero-text" data-i18n="hero.text">
+                Сергей, мастерская SIS Motors LLC. Более 15 лет опыта в ремонте и обслуживании автомобилей: от диагностики и технического обслуживания до сложных работ по двигателю, трансмиссии и ходовой части.
               </p>
 
               <div class="hero-actions">
                 <a class="button button-primary" href="tel:+19378293780">
                   +1 (937) 829-3780
                 </a>
-                <a
-                  class="button button-secondary"
-                  href="mailto:sismotorsllc@gmail.com"
-                >
+                <a class="button button-secondary" href="mailto:sismotorsllc@gmail.com" data-i18n="hero.email">
                   Написать на email
                 </a>
               </div>
 
               <div class="hero-meta">
                 <div class="meta-pill">
-                  <strong>15+ лет опыта</strong>
-                  <span>Практический опыт ремонта и обслуживания автомобилей</span>
+                  <strong data-i18n="hero.experienceTitle">15+ лет опыта</strong>
+                  <span data-i18n="hero.experienceText">Практический опыт ремонта и обслуживания автомобилей</span>
                 </div>
                 <div class="meta-pill">
                   <strong>Milford, OH</strong>
@@ -148,39 +149,34 @@
 
             <div class="hero-visual" aria-hidden="true">
               <div class="hero-photo-card">
-                <img
-                  src="assets/sis-motors-web/head.jpg?v=3"
-                  alt=""
-                  loading="eager"
-                  decoding="async"
-                />
+                <img src="assets/sis-motors-web/head.jpg?v=3" alt="" loading="eager" decoding="async" />
               </div>
               <div class="hero-floating-card">
-                <span>Сергей, мастерская</span>
+                <span data-i18n="hero.cardLabel">Сергей, мастерская</span>
                 <strong>SIS Motors LLC</strong>
-                <p>Диагностика, ремонт, обслуживание, помощь в пути.</p>
+                <p data-i18n="hero.cardText">Диагностика, ремонт, обслуживание, помощь в пути.</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="proof-strip" aria-label="Ключевые факты">
+        <section class="proof-strip" aria-label="Ключевые факты" data-i18n-attr="aria-label:proof.ariaLabel">
           <div class="container proof-grid">
             <article class="proof-item">
-              <h2>Диагностика двигателя</h2>
-              <p>Поиск и устранение неисправностей двигателя.</p>
+              <h2 data-i18n="proof.engineTitle">Диагностика двигателя</h2>
+              <p data-i18n="proof.engineText">Поиск и устранение неисправностей двигателя.</p>
             </article>
             <article class="proof-item">
-              <h2>Ходовая и узлы</h2>
-              <p>Диагностика ходовой части и замена узлов.</p>
+              <h2 data-i18n="proof.suspensionTitle">Ходовая и узлы</h2>
+              <p data-i18n="proof.suspensionText">Диагностика ходовой части и замена узлов.</p>
             </article>
             <article class="proof-item">
-              <h2>Помощь в пути</h2>
-              <p>Техническая помощь в пути или выезд к дому при необходимости.</p>
+              <h2 data-i18n="proof.roadTitle">Помощь в пути</h2>
+              <p data-i18n="proof.roadText">Техническая помощь в пути или выезд к дому при необходимости.</p>
             </article>
             <article class="proof-item">
-              <h2>Проверка перед покупкой</h2>
-              <p>Техническая проверка автомобиля перед покупкой.</p>
+              <h2 data-i18n="proof.inspectTitle">Проверка перед покупкой</h2>
+              <p data-i18n="proof.inspectText">Техническая проверка автомобиля перед покупкой.</p>
             </article>
           </div>
         </section>
@@ -189,59 +185,52 @@
           <div class="container">
             <div class="section-head">
               <div>
-                <p class="section-kicker">Услуги</p>
-                <h2>Основные направления работы сервиса</h2>
+                <p class="section-kicker" data-i18n="services.kicker">Услуги</p>
+                <h2 data-i18n="services.title">Основные направления работы сервиса</h2>
               </div>
-              <a class="section-link" href="tel:+19378293780">Связаться по телефону</a>
+              <a class="section-link" href="tel:+19378293780" data-i18n="services.call">Связаться по телефону</a>
             </div>
 
             <div class="services-grid">
               <article class="service-card">
                 <div class="service-icon">01</div>
-                <h3>Диагностика двигателя</h3>
-                <p>Диагностика двигателя и устранение выявленных неисправностей.</p>
+                <h3 data-i18n="services.engineTitle">Диагностика двигателя</h3>
+                <p data-i18n="services.engineText">Диагностика двигателя и устранение выявленных неисправностей.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">02</div>
-                <h3>Ходовая часть</h3>
-                <p>Диагностика ходовой части, замена узлов и восстановление стабильной работы автомобиля.</p>
+                <h3 data-i18n="services.suspensionTitle">Ходовая часть</h3>
+                <p data-i18n="services.suspensionText">Диагностика ходовой части, замена узлов и восстановление стабильной работы автомобиля.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">03</div>
-                <h3>Электрика</h3>
-                <p>Поиск и ремонт проблем в автомобильной электрике и электронных узлах.</p>
+                <h3 data-i18n="services.electricTitle">Электрика</h3>
+                <p data-i18n="services.electricText">Поиск и ремонт проблем в автомобильной электрике и электронных узлах.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">04</div>
-                <h3>Техническое обслуживание</h3>
-                <p>Плановое обслуживание автомобиля и регламентные работы.</p>
+                <h3 data-i18n="services.maintenanceTitle">Техническое обслуживание</h3>
+                <p data-i18n="services.maintenanceText">Плановое обслуживание автомобиля и регламентные работы.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">05</div>
-                <h3>Замена масел</h3>
-                <p>Замена масла в двигателе, коробке, раздатке и мосту.</p>
+                <h3 data-i18n="services.oilTitle">Замена масел</h3>
+                <p data-i18n="services.oilText">Замена масла в двигателе, коробке, раздатке и мосту.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">06</div>
-                <h3>Тормозная система</h3>
-                <p>Замена тормозной системы и работы по восстановлению надежного торможения.</p>
+                <h3 data-i18n="services.brakesTitle">Тормозная система</h3>
+                <p data-i18n="services.brakesText">Замена тормозной системы и работы по восстановлению надежного торможения.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">07</div>
-                <h3>Двигатели и трансмиссии</h3>
-                <p>Замена двигателей, трансмиссий и сложные механические работы.</p>
+                <h3 data-i18n="services.powertrainTitle">Двигатели и трансмиссии</h3>
+                <p data-i18n="services.powertrainText">Замена двигателей, трансмиссий и сложные механические работы.</p>
               </article>
-
               <article class="service-card">
                 <div class="service-icon">08</div>
-                <h3>Выезд и осмотр</h3>
-                <p>Помощь в пути, выезд к дому и техническая проверка автомобиля перед покупкой.</p>
+                <h3 data-i18n="services.mobileTitle">Выезд и осмотр</h3>
+                <p data-i18n="services.mobileText">Помощь в пути, выезд к дому и техническая проверка автомобиля перед покупкой.</p>
               </article>
             </div>
           </div>
@@ -250,46 +239,38 @@
         <section class="section about-section" id="about">
           <div class="container about-grid">
             <div class="about-copy">
-              <p class="section-kicker">О сервисе</p>
-              <h2>Сервис, который показывает реальную работу</h2>
-              <p class="about-lead">
-                В основе SIS Motors LLC не витринная подача, а реальный сервис,
-                мастерская и практический опыт. Это видно по самим работам:
-                диагностике, ремонту узлов, техническому обслуживанию и более
-                сложным вмешательствам в двигатель и трансмиссию.
+              <p class="section-kicker" data-i18n="about.kicker">О сервисе</p>
+              <h2 data-i18n="about.title">Сервис, который показывает реальную работу</h2>
+              <p class="about-lead" data-i18n="about.lead">
+                В основе SIS Motors LLC не витринная подача, а реальный сервис, мастерская и практический опыт. Это видно по самим работам: диагностике, ремонту узлов, техническому обслуживанию и более сложным вмешательствам в двигатель и трансмиссию.
               </p>
 
               <div class="about-points">
                 <article>
-                  <h3>Реальная мастерская</h3>
-                  <p>В открытом объявлении опубликованы фотографии рабочей зоны, автомобилей и текущих ремонтов.</p>
+                  <h3 data-i18n="about.realTitle">Реальная мастерская</h3>
+                  <p data-i18n="about.realText">В открытом объявлении опубликованы фотографии рабочей зоны, автомобилей и текущих ремонтов.</p>
                 </article>
                 <article>
-                  <h3>Контакт напрямую с мастером</h3>
-                  <p>Основной контакт — Сергей. Это усиливает доверие и делает коммуникацию короче.</p>
+                  <h3 data-i18n="about.directTitle">Контакт напрямую с мастером</h3>
+                  <p data-i18n="about.directText">Основной контакт — Сергей. Это усиливает доверие и делает коммуникацию короче.</p>
                 </article>
                 <article>
-                  <h3>Широкий профиль услуг</h3>
-                  <p>От профилактики и диагностики до двигателей, трансмиссий и выездной помощи.</p>
+                  <h3 data-i18n="about.profileTitle">Широкий профиль услуг</h3>
+                  <p data-i18n="about.profileText">От профилактики и диагностики до двигателей, трансмиссий и выездной помощи.</p>
                 </article>
                 <article>
-                  <h3>Локальная точка в Ohio</h3>
-                  <p>Сервис расположен в Milford, что удобно для клиентов района Cincinnati и соседних городов.</p>
+                  <h3 data-i18n="about.localTitle">Локальная точка в Ohio</h3>
+                  <p data-i18n="about.localText">Сервис расположен в Milford, что удобно для клиентов района Cincinnati и соседних городов.</p>
                 </article>
               </div>
             </div>
 
             <aside class="about-aside">
               <div class="aside-card aside-photo">
-                <img
-                  src="assets/sis-motors-web/hybrid.jpg?v=3"
-                  alt="Автомобиль в ремонте в SIS Motors LLC"
-                  loading="eager"
-                  decoding="async"
-                />
+                <img src="assets/sis-motors-web/hybrid.jpg?v=3" alt="Автомобиль в ремонте в SIS Motors LLC" data-i18n-attr="alt:about.photoAlt" loading="eager" decoding="async" />
               </div>
               <div class="aside-card aside-contact">
-                <span class="aside-label">Контакты</span>
+                <span class="aside-label" data-i18n="contact.kicker">Контакты</span>
                 <a href="tel:+19378293780">+1 (937) 829-3780</a>
                 <a href="mailto:sismotorsllc@gmail.com">sismotorsllc@gmail.com</a>
                 <p>6071 Branch Hill Guinea Pike, Milford, OH 45150</p>
@@ -302,36 +283,28 @@
           <div class="container">
             <div class="section-head">
               <div>
-                <p class="section-kicker">Работы</p>
-                <h2>Фотографии сервиса и ремонта</h2>
+                <p class="section-kicker" data-i18n="gallery.kicker">Работы</p>
+                <h2 data-i18n="gallery.title">Фотографии сервиса и ремонта</h2>
               </div>
             </div>
 
             <div class="showcase-grid">
               <figure class="showcase-photo">
-                <img
-                  src="assets/sis-motors-web/work-1.jpg?v=3"
-                  alt="Деталь двигателя после обработки"
-                  loading="eager"
-                  decoding="async"
-                />
+                <img src="assets/sis-motors-web/work-1.jpg?v=3" alt="Деталь двигателя после обработки" data-i18n-attr="alt:gallery.photoAlt" loading="eager" decoding="async" />
               </figure>
 
               <div class="showcase-copy">
                 <span>Milford, Ohio</span>
                 <h3>SIS Motors LLC</h3>
-                <p>
-                  На странице использованы реальные фотографии сервиса и работ из
-                  открытого объявления. Это делает подачу честной и сразу
-                  показывает, что за лендингом стоит не абстрактный бренд, а
-                  живая мастерская.
+                <p data-i18n="gallery.text">
+                  На странице использованы реальные фотографии сервиса и работ из открытого объявления. Это делает подачу честной и сразу показывает, что за лендингом стоит не абстрактный бренд, а живая мастерская.
                 </p>
                 <ul>
-                  <li>Реальная мастерская и рабочая зона</li>
-                  <li>Фотографии узлов, двигателя и текущих ремонтов</li>
-                  <li>Контакты для прямой связи с Сергеем</li>
+                  <li data-i18n="gallery.item1">Реальная мастерская и рабочая зона</li>
+                  <li data-i18n="gallery.item2">Фотографии узлов, двигателя и текущих ремонтов</li>
+                  <li data-i18n="gallery.item3">Контакты для прямой связи с Сергеем</li>
                 </ul>
-                <a class="button button-primary" href="tel:+19378293780">
+                <a class="button button-primary" href="tel:+19378293780" data-i18n="gallery.call">
                   Обсудить работы по телефону
                 </a>
               </div>
@@ -342,31 +315,24 @@
         <section class="section contact-band" id="contact">
           <div class="container contact-band-grid">
             <div class="contact-band-copy">
-              <p class="section-kicker section-kicker-light">Контакты</p>
-              <h2>SIS Motors LLC в Milford, Ohio</h2>
-              <p>
-                Если нужен осмотр, обслуживание, ремонт двигателя, ходовой,
-                электрики или помощь в пути, связаться можно напрямую с
-                Сергеем.
+              <p class="section-kicker section-kicker-light" data-i18n="contact.kicker">Контакты</p>
+              <h2 data-i18n="contact.title">SIS Motors LLC в Milford, Ohio</h2>
+              <p data-i18n="contact.text">
+                Если нужен осмотр, обслуживание, ремонт двигателя, ходовой, электрики или помощь в пути, связаться можно напрямую с Сергеем.
               </p>
             </div>
 
             <div class="contact-band-cards">
               <a class="contact-card" href="tel:+19378293780">
-                <span>Телефон</span>
+                <span data-i18n="contact.phone">Телефон</span>
                 <strong>+1 (937) 829-3780</strong>
               </a>
               <a class="contact-card" href="mailto:sismotorsllc@gmail.com">
                 <span>Email</span>
                 <strong>sismotorsllc@gmail.com</strong>
               </a>
-              <a
-                class="contact-card"
-                href="https://maps.google.com/?q=6071+Branch+Hill+Guinea+Pike,+Milford,+OH+45150"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span>Адрес</span>
+              <a class="contact-card" href="https://maps.google.com/?q=6071+Branch+Hill+Guinea+Pike,+Milford,+OH+45150" target="_blank" rel="noreferrer">
+                <span data-i18n="contact.address">Адрес</span>
                 <strong>6071 Branch Hill Guinea Pike, Milford, OH 45150</strong>
               </a>
             </div>
@@ -378,22 +344,16 @@
         <div class="container footer-grid">
           <div>
             <span class="brand-mark">SIS MOTORS</span>
-            <p>
-              Сергей, мастерская. SIS Motors LLC. Milford, Ohio.
-            </p>
+            <p data-i18n="footer.summary">Сергей, мастерская. SIS Motors LLC. Milford, Ohio.</p>
           </div>
 
           <div>
-            <h2>Связаться</h2>
+            <h2 data-i18n="footer.contactTitle">Связаться</h2>
             <ul>
               <li><a href="tel:+19378293780">+1 (937) 829-3780</a></li>
               <li><a href="mailto:sismotorsllc@gmail.com">sismotorsllc@gmail.com</a></li>
               <li>
-                <a
-                  href="https://maps.google.com/?q=6071+Branch+Hill+Guinea+Pike,+Milford,+OH+45150"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://maps.google.com/?q=6071+Branch+Hill+Guinea+Pike,+Milford,+OH+45150" target="_blank" rel="noreferrer">
                   6071 Branch Hill Guinea Pike, Milford, OH 45150
                 </a>
               </li>
@@ -401,11 +361,11 @@
           </div>
 
           <div>
-            <h2>Что подтверждено</h2>
+            <h2 data-i18n="footer.proofTitle">Что подтверждено</h2>
             <ul>
-              <li>Более 15 лет опыта</li>
-              <li>Профиль услуг из публичного объявления</li>
-              <li>Реальные фото сервиса и работ</li>
+              <li data-i18n="footer.proof1">Более 15 лет опыта</li>
+              <li data-i18n="footer.proof2">Профиль услуг из публичного объявления</li>
+              <li data-i18n="footer.proof3">Реальные фото сервиса и работ</li>
             </ul>
           </div>
         </div>
