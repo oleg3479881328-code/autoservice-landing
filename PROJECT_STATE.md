@@ -1,6 +1,6 @@
 # Project State
 
-Status: MVP landing implemented
+Status: Published landing refined with real business photos and final contact data
 
 Known facts:
 - The project is a landing page for an auto service.
@@ -12,12 +12,14 @@ Known facts:
 - Project-local Graphify Codex setup is installed.
 - Graphify output now exists after code files were added.
 - The current landing content is based on the BAZAR.club reference for SIS Motors LLC.
-- Confirmed data used in the landing: Sergey, SIS Motors LLC, Milford, OH, address, email, service list, 15+ years of experience.
+- Confirmed data used in the landing: Sergey, SIS Motors LLC, Milford, OH, address, email, phone, service list, 15+ years of experience.
+- The published landing now uses real photos from the public business listing instead of generic service imagery.
+- Basic SEO metadata and Schema.org `AutoRepair` structured data were added using confirmed contact details.
 
 Open questions:
-- Should the landing replace email-first CTA with a real phone/booking flow?
-- Should the page use the business's original photos and branding assets instead of stock service imagery?
-- Should the demo form be connected to a real backend or external lead channel?
+- Should the landing be localized into English or made bilingual for a broader Ohio audience?
+- Should the page add a real lead form or WhatsApp/Telegram/contact workflow beyond phone and email?
+- Should Sergey provide reviews, working hours, and logo files for the final production version?
 
 Next required step:
-- Confirm the final contact channel and production assets.
+- Push the refined version and verify the published GitHub Pages build.

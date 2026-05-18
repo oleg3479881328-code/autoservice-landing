@@ -12,11 +12,13 @@ Completed:
 - Configured Git remote `origin`.
 - Implemented MVP landing page in `index.html`, `styles.css`, and `app.js`.
 - Updated the landing content against the BAZAR.club reference for SIS Motors LLC.
+- Replaced generic imagery with real photos from the public SIS Motors LLC listing.
+- Added final confirmed contact data: Sergey, phone, email, Milford address.
+- Added publication-ready metadata and Schema.org structured data for the landing.
 - Rebuilt Graphify output after adding code files.
 
 Pending:
-- Capture first business clarification answer.
+- Push the refined version to GitHub and verify the refreshed Pages deployment.
 
 Notes:
-- The installed Graphify CLI does not support `graphify .`.
-- `graphify update .` ran successfully but found no code files, so no graph output was generated at this stage.
+- Public source material remains limited, so the landing uses only confirmed business facts and avoids speculative claims.

@@ -1,6 +1,8 @@
 graphify-out/
 .codex/
 artifacts-homepage.png
+artifacts-homepage-v2.png
+assets/sis-motors/
 .DS_Store
 Thumbs.db
 node_modules/
